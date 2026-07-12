@@ -1,0 +1,732 @@
+cd~
+cd ~
+pwd
+ls
+cat /etc/ssh/sshd_config
+whoamI
+whoami
+cat /etc/ssh/sshd_config
+id ec2-user
+clear
+sudo cat /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
+sudo systemctl restart sshd
+pwd
+cat notes.txt
+cd ..
+pwd
+ls
+cs user1
+cd user1
+ls
+sudo cd user1
+pwd
+ls
+sudo cd user1/
+exit
+clear
+pwd
+ls
+cd new/
+ls
+pwd
+touch new1.sql
+ls
+ls -l
+ls -lr
+ls -ltr
+cat first.txt 
+cat >> first.txt 
+cat first.txt 
+grep 'AWS' first.txt 
+grep -n 'AWS' first.txt 
+grep -i -n 'AWS' first.txt 
+vi first.txt 
+cat first.txt 
+whoami
+clear
+whoami
+sudo useradd user1
+sude passwd user1
+sudo passwd user1
+sudo useradd user2
+sudo passwd user2
+cat /etc/passwd
+clear
+sudo su user1
+pwd
+clear
+id user1
+id user2
+sudo groupadd devops
+sudo usermod -aG user1 devops
+sudo usermod -aG devops user1
+sudo usermod -aG devops user2
+sudo lid -g devops
+id user1
+id ec2-user
+sudo usermod -aG user1 wheel
+sudo usermod -aG wheel user1
+id user1
+sudo su user1
+cls
+clear
+ls
+rmdir new
+mkdir new
+ls
+cd new/
+touch first.txt
+cat first.txt
+cat >> first.txt
+cat first.txt 
+clear
+history
+www.telusko.com
+ping www.telusko.com
+clear
+history
+clear
+pwd
+ls -li
+cd new/
+ls -li
+ls
+ls l
+ls lr
+ls -l
+chmod 544 first.txt 
+ls -l
+chmod 744 first.txt 
+ls -l
+ln first_copy.txt
+ln first.txt first_copy.txt
+ln -li
+ls -li
+vi first.txt
+cat first_copy.txt
+history
+clear
+ln -l
+ls -l
+ln -s new1.sql. new.sql
+ls -l
+vi new1.sql 
+cat new.sql
+cat new1.sql
+cat new.sql
+ls
+cat new.sql
+clear
+ls
+cat new1.sql 
+ls
+touch file1.txt
+touch file2.txt
+touch file3.txt
+mkdir compress
+mv file1.txt compress
+cd compress/
+ls
+cd ..
+mv file2.txt compress/
+mv file3.txt compress/
+zip compress
+cd co
+cd compress/
+vi file1.txt
+cat file1.txt
+cat >> file2.txt
+cat file2.txt
+cat file3.txt
+cat >> file3.txt
+clear
+cd ..
+zip compress/
+zip compress *
+ls
+cd compress.zip
+cd compress/
+ls
+zip -sf compress.zip
+cd ..
+zip -sf compress.zip
+touch file4.txt
+zip -r compress.zip file4.txt
+zip -sf compress.zip
+unzip file4.txt
+unzip compress.zip
+ls
+clear
+ls -lt
+cd compress/
+ls
+mkdir new
+mv compress.zip new
+cd ..
+ls
+mv compress.zip compress
+cd compress/
+ls
+mv compress.zip new
+cd new
+unzip compress.zip 
+ls
+ls -l
+cat new1.sql
+cat fiel4.txt
+cat file4.txt
+cat first.txt
+clear
+sudo dnf install locate
+clear
+ls -l
+locate new1.sql
+clear
+ls -ltr
+find new1.sql
+sudo updatedb
+locate compress
+clear
+ls
+cd compress/
+ls
+clear
+ls -ltr
+cd ..
+ls -ltr
+cd ..
+ls
+cd ..
+ls
+cd new
+ls
+cd ..
+locate first.txt
+find first.txt
+sudo find first.txt
+sudo find /homw -name first.txt
+sudo find /home -name first.txt
+clear
+history
+clear
+sudo dnf install httpd
+systemctl start httpd service
+clear
+whoami
+sudo service httpd start
+ls
+cd ..
+ls
+cd ..
+ls
+cd var
+ls
+cd www
+ls
+cd html/
+ls
+clear
+sudo vi index.html
+cat index.html 
+clear
+ls
+new
+cd ..
+ls
+cd var/www
+ls
+cd html/
+ls
+cat index.html 
+clear
+sudo service httpd start
+clr
+clear
+echo $SHELL
+vi shell.sh
+sh shell.sh
+vi shell.sh 
+sh shell.sh
+vi shell.sh 
+sh shell.sh 
+vi evenorodd.sh
+sh evenorodd.sh 
+vi evenorodd.sh 
+sh evenorodd.sh 
+vi evenorodd.sh 
+sh evenorodd.sh 
+clear
+vi shell.sh 
+vi evenorodd.sh 
+vi loops.sh
+sh loops.sh 
+vi loops.sh 
+clear
+vi loops.sh 
+sh loops.sh 
+vi loops.sh 
+vi loop.sh
+sh loop.sh
+clear
+history
+clear
+vi funct.sh
+addition()
+sh funct.sh 
+vi funct.sh 
+sh funct.sh 
+vi fileOps.sh
+ls
+sh fileOps.sh 
+ls
+vi newFile.txt 
+sh fileOps.sh 
+vi fileOps.sh 
+sh fileOps.sh 
+sh fileOps.sh newFile.txt
+vi fileOps.sh 
+vi files.sh
+sh files.sh newFile.txt
+vi files.sh
+sh files.sh newFile.txt
+ls
+sh files.sh file1.txt
+sh files.sh "file1.txt"
+vi files.sh
+sh files.sh file1.txt
+ls
+vi file1.txt 
+sh files.sh file1.txt
+clear
+vi programs.sh
+sh programs.sh 
+vi programs.sh
+sh programs.sh 
+vi programs.sh
+sh programs.sh 
+vi programs.sh
+sh programs.sh 
+clear
+vi programs.sh
+clear
+sh programs.sh 
+vi programs.sh
+sh programs.sh cloud
+vi programs.sh
+sh programs.sh cloud
+vi programs.sh
+sh programs.sh cloud
+sh programs.sh cloudaws
+clear
+vi palindrome.sh
+sh palindrome.sh cloud
+vi palindrome.sh
+sh palindrome.sh cloud
+vi palindrome.sh
+sh palindrome.sh cloud
+sh palindrome.sh madam
+vi palindrome.sh
+sh palindrome.sh madam
+sh palindrome.sh racecar
+sh palindrome.sh aba
+vi palindrome.sh
+sh palindrome.sh aba
+vi palindrome.sh
+sh palindrome.sh aba
+vi palindrome.sh
+sh palindrome.sh racecar
+sh palindrome.sh racecars
+vi palindrome.sh
+clear
+vi palindrome.sh malayalam
+sh palindrome.sh malayalam
+fuck
+sh palindrome.sh fukc
+vi palindrome.sh
+exit
+cd~
+cd ~
+pwd
+ls
+cat /etc/ssh/sshd_config
+whoamI
+whoami
+cat /etc/ssh/sshd_config
+id ec2-user
+clear
+sudo cat /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
+sudo vi /etc/ssh/sshd_config
+sudo systemctl restart sshd
+pwd
+cat notes.txt
+cd ..
+pwd
+ls
+cs user1
+cd user1
+ls
+sudo cd user1
+pwd
+ls
+sudo cd user1/
+exit
+clear
+pwd
+ls
+cd new/
+ls
+pwd
+touch new1.sql
+ls
+ls -l
+ls -lr
+ls -ltr
+cat first.txt 
+cat >> first.txt 
+cat first.txt 
+grep 'AWS' first.txt 
+grep -n 'AWS' first.txt 
+grep -i -n 'AWS' first.txt 
+vi first.txt 
+cat first.txt 
+whoami
+clear
+whoami
+sudo useradd user1
+sude passwd user1
+sudo passwd user1
+sudo useradd user2
+sudo passwd user2
+cat /etc/passwd
+clear
+sudo su user1
+pwd
+clear
+id user1
+id user2
+sudo groupadd devops
+sudo usermod -aG user1 devops
+sudo usermod -aG devops user1
+sudo usermod -aG devops user2
+sudo lid -g devops
+id user1
+id ec2-user
+sudo usermod -aG user1 wheel
+sudo usermod -aG wheel user1
+id user1
+sudo su user1
+cls
+clear
+ls
+rmdir new
+mkdir new
+ls
+cd new/
+touch first.txt
+cat first.txt
+cat >> first.txt
+cat first.txt 
+clear
+history
+www.telusko.com
+ping www.telusko.com
+clear
+history
+clear
+pwd
+ls -li
+cd new/
+ls -li
+ls
+ls l
+ls lr
+ls -l
+chmod 544 first.txt 
+ls -l
+chmod 744 first.txt 
+ls -l
+ln first_copy.txt
+ln first.txt first_copy.txt
+ln -li
+ls -li
+
+cat first_copy.txt
+history
+clear
+ln -l
+ls -l
+ln -s new1.sql. new.sql
+ls -l
+vi new1.sql 
+cat new.sql
+cat new1.sql
+cat new.sql
+ls
+cat new.sql
+clear
+ls
+cat new1.sql 
+ls
+touch file1.txt
+touch file2.txt
+touch file3.txt
+mkdir compress
+mv file1.txt compress
+cd compress/
+ls
+cd ..
+mv file2.txt compress/
+mv file3.txt compress/
+zip compress
+cd co
+cd compress/
+vi file1.txt
+cat file1.txt
+cat >> file2.txt
+cat file2.txt
+cat file3.txt
+cat >> file3.txt
+clear
+cd ..
+zip compress/
+zip compress *
+ls
+cd compress.zip
+cd compress/
+ls
+zip -sf compress.zip
+cd ..
+zip -sf compress.zip
+touch file4.txt
+zip -r compress.zip file4.txt
+zip -sf compress.zip
+unzip file4.txt
+unzip compress.zip
+ls
+clear
+ls -lt
+cd compress/
+ls
+mkdir new
+mv compress.zip new
+cd ..
+ls
+mv compress.zip compress
+cd compress/
+ls
+mv compress.zip new
+cd new
+unzip compress.zip 
+ls
+ls -l
+cat new1.sql
+cat fiel4.txt
+cat file4.txt
+cat first.txt
+clear
+sudo dnf install locate
+clear
+ls -l
+locate new1.sql
+clear
+ls -ltr
+find new1.sql
+sudo updatedb
+locate compress
+clear
+ls
+cd compress/
+ls
+clear
+ls -ltr
+cd ..
+ls -ltr
+cd ..
+ls
+cd ..
+ls
+cd new
+ls
+cd ..
+locate first.txt
+find first.txt
+sudo find first.txt
+sudo find /homw -name first.txt
+sudo find /home -name first.txt
+clear
+history
+clear
+sudo dnf install httpd
+systemctl start httpd service
+clear
+whoami
+sudo service httpd start
+ls
+cd ..
+ls
+cd ..
+ls
+cd var
+ls
+cd www
+ls
+cd html/
+ls
+clear
+sudo vi index.html
+cat index.html 
+clear
+ls
+new
+cd ..
+ls
+cd var/www
+ls
+cd html/
+ls
+cat index.html 
+clear
+sudo service httpd start
+clr
+clear
+echo $SHELL
+vi shell.sh
+sh shell.sh
+vi shell.sh 
+sh shell.sh
+vi shell.sh 
+sh shell.sh 
+vi evenorodd.sh
+sh evenorodd.sh 
+vi evenorodd.sh 
+sh evenorodd.sh 
+vi evenorodd.sh 
+sh evenorodd.sh 
+clear
+vi shell.sh 
+vi evenorodd.sh 
+vi loops.sh
+sh loops.sh 
+vi loops.sh 
+clear
+vi loops.sh 
+sh loops.sh 
+vi loops.sh 
+vi loop.sh
+sh loop.sh
+clear
+history
+clear
+vi funct.sh
+addition()
+sh funct.sh 
+vi funct.sh 
+sh funct.sh 
+vi fileOps.sh
+ls
+sh fileOps.sh 
+ls
+vi newFile.txt 
+sh fileOps.sh 
+vi fileOps.sh 
+sh fileOps.sh 
+sh fileOps.sh newFile.txt
+vi fileOps.sh 
+vi files.sh
+sh files.sh newFile.txt
+vi files.sh
+sh files.sh newFile.txt
+ls
+sh files.sh file1.txt
+sh files.sh "file1.txt"
+vi files.sh
+sh files.sh file1.txt
+ls
+vi file1.txt 
+sh files.sh file1.txt
+clear
+vi programs.sh
+sh programs.sh 
+vi programs.sh
+sh programs.sh 
+vi programs.sh
+sh programs.sh 
+vi programs.sh
+sh programs.sh 
+clear
+vi programs.sh
+clear
+sh programs.sh 
+vi programs.sh
+sh programs.sh cloud
+vi programs.sh
+sh programs.sh cloud
+vi programs.sh
+sh programs.sh cloud
+sh programs.sh cloudaws
+clear
+vi palindrome.sh
+sh palindrome.sh cloud
+vi palindrome.sh
+sh palindrome.sh cloud
+vi palindrome.sh
+sh palindrome.sh cloud
+sh palindrome.sh madam
+vi palindrome.sh
+sh palindrome.sh madam
+sh palindrome.sh racecar
+sh palindrome.sh aba
+vi palindrome.sh
+sh palindrome.sh aba
+vi palindrome.sh
+sh palindrome.sh aba
+vi palindrome.sh
+sh palindrome.sh racecar
+sh palindrome.sh racecars
+vi palindrome.sh
+clear
+vi palindrome.sh malayalam
+sh palindrome.sh malayalam
+fuck
+sh palindrome.sh fukc
+vi palindrome.sh
+exit
+clear
+ls
+clear
+git --version
+~
+sudo dnf install git -y
+clear
+git --version
+git config user.name V-i-t-h-u-n
+git config --global user.name V-i-t-h-u-n
+git config --global user.email vcvithun24@gmail.com
+git config --list
+ls
+clear
+mkdir devops-learnings-git
+cd devops-learnings-git/
+git init
+ls
+mkdir linux-cmds
+touch linux-cmds.txt
+history
+cat ~/.bash_history
+clear
+cat ~/.bash_history
+clear
+cat ~/.bash_history
+cat ~/.bash_history > history.txt
+ls
+cat history.txt
+cat -n head history.txt
+cat head history.txt
+clear
+head -n 10 history.txt
+tail -n 10 history.txt
+clear
+history -w
