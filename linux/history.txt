@@ -555,3 +555,213 @@
   555   cat history.txt
   556  clear
   557  history > history.txt
+  558  cat history.txt
+  559  clear
+  560  cd ..
+  561  ls
+  562  find . -name history.txt
+  563  clear
+  564  cd linux/
+  565  grep 'locate' history.txt
+  566  sudo dnf install locate
+  567  clear
+  568  update locatedb
+  569  grep 'locatedb' history.txt
+  570  grep 'locate' history.txt
+  571  clear
+  572  cd ..
+  573  cd ../..
+  574  sudo updatedb
+  575  locate history.txt
+  576  clear
+  577  ls
+  578  cd ec2-user/
+  579  cd devops-learnings-git/
+  580  ls
+  581  cd li
+  582  cd linux/
+  583  clear
+  584  head -5 history.txt
+  585  clear
+  586  tail -3 history.txt
+  587  clear
+  588  wc -l history.txt
+  589  clear
+  590  find . -name '*.sh'
+  591  cd ..
+  592  find . -name '*.sh'
+  593  clear
+  594  cd bash-scripts/
+  595  ls
+  596  ltr
+  597  ls
+  598  l
+  599  clear
+  600  lts
+  601  ltr
+  602  clear
+  603  ls -l
+  604  chmod 777 loop.sh
+  605  ls -l
+  606  ls -R
+  607  clear
+  608  cd ..
+  609  ls -R
+  610  find . -type d
+  611  find . -type f
+  612  clear
+  613  pwd
+  614  ls
+  615  cd devops-learnings-git/
+  616  ls
+  617  cd linux/
+  618  mkdir cmds
+  619  cd cmds/
+  620  git clone https://gitlab.com/twn-youtube/twn-linux-commands.git
+  621  clear
+  622  ls
+  623  cd twn-linux-commands/
+  624  ls
+  625  cd logs
+  626  ls
+  627  cd 2026-01
+  628  ls
+  629  clear
+  630  cd ..
+  631  logs -R
+  632  ls -R
+  633  ls -R | grep 'app.txt'
+  634  cd ..
+  635  ls
+  636  find . type -f -name "*.txt"
+  637  find . -type -f -name "*.txt"
+  638  find . -type f -name "*.txt"
+  639  clear
+  640  find . -type f "*.txt"
+  641  find . -type f -name "*.txt"
+  642  find . -type f -name "%d%"
+  643  ls
+  644  find . -type f -name "*d*"
+  645  clear
+  646  git status
+  647  clear
+  648  cd ~
+  649  cd devops-learnings-git/
+  650  git status
+  651  clear
+  652  .
+  653  clear
+  654  cd linux/
+  655  cd cmds/
+  656  ls
+  657  cd twn-linux-commands/
+  658  cd logs/
+  659  ls
+  660  find . -type f -name "*.txt"
+  661  cat ./2026-01/app.txt
+  662  clear
+  663  find -type f -name ".txt" | cat
+  664  find -type f -name "app.txt" | xargs cat
+  665  clear
+  666  find . -type f -name "app.txt"
+  667  find . -type f -name "app.txt" | xargs cat | grep "ERROR" -n
+  668  find . -type f -name "app.txt" | xargs cat | grep "ERROR" -n | sort
+  669  clear
+  670  find . -type f -name "app.txt" | xargs cat | grep "ERROR" -n | sort -k4
+  671  find . -type f -name "app.txt" | xargs cat | grep "ERROR" -n | sort -k4 | uniq -f3
+  672  clear
+  673  find . -type f -name "app.txt" | xargs cat | grep "ERROR" -n | sort -k4 | uniq -f3 > error.log
+  674  ls
+  675  cat error.log 
+  676* find . -type f -name "*.txt" -exec cp {} 
+  677  ls
+  678  cd ..
+  679  ls
+  680  mkdir backups
+  681  cd backups/
+  682  pwd
+  683  find . -type f -name "*.txt" -exec cp {} /home/ec2-user/devops-learnings-git/linux/cmds/twn-linux-commands/backups
+  684  find . -type f -name "*.txt" -exec cp {} /home/ec2-user/devops-learnings-git/linux/cmds/twn-linux-commands/backups;
+  685  find . -type f -name "*.txt" -exec cp {} /home/ec2-user/devops-learnings-git/linux/cmds/twn-linux-commands/backups ;
+  686  cd ..
+  687  ls
+  688  cd logs/
+  689  ls
+  690  find . -type f -name "*.txt" -exec rsync -R {} /home/ec2-user/devops-learnings-git/linux/cmds/twn-linux-commands/backups \;
+  691  find -type d /backups
+  692  ls
+  693  cd ..
+  694  ls
+  695  cd backups/
+  696  ls
+  697  cd ..
+  698  ls
+  699  cd ..
+  700  cd ../..
+  701  ls
+  702  git status
+  703  cd devops-learnings-git/
+  704  git status
+  705  git add .
+  706  clear
+  707  git commit -m "More linux commands"
+  708  git push
+  709  git status
+  710  clear
+  711  ls
+  712  cd linux/
+  713  ls
+  714  git status
+  715  git add cmds/twn-linux-commands
+  716  git status
+  717  git sumodule status
+  718  git submodule status
+  719  cat .gitmodules
+  720  ls
+  721  cd cmd
+  722  cd cmds
+  723  rm -rf .git
+  724  ls
+  725  git status
+  726  cd twn-linux-commands/
+  727  ls
+  728  clear
+  729  cd ../../
+  730  ls
+  731  cd ../..
+  732  ls
+  733  cd devops-learnings-git/
+  734  git status
+  735  git add .
+  736  git status
+  737  cd linux/
+  738  cd cmds
+  739  ls -la
+  740  cd twn-linux-commands/
+  741  ls -la
+  742  rm -rf .git
+  743  cd ../..
+  744  cd ../
+  745  git status
+  746  ls
+  747  git status
+  748  clear
+  749  git status
+  750  git add .
+  751  git status
+  752  ls -R linux/cmds/twn-linux-commands | head -20
+  753  git check-ignore -v linux/cmds/twn-linux-commands/*
+  754  git ls-files --stage | grep twn-linux-commands
+  755  git rm --cached linux/cmds/twn-linux-commands
+  756  git add linux/cmds/twn-linux-commands
+  757  ls
+  758  git status
+  759  git add .
+  760  git status
+  761  git commit -m "more linux cmd from yt"
+  762  git push
+  763  clear
+  764  ls
+  765  cd linux/
+  766  ls
+  767  history > history.txt
