@@ -1,0 +1,28 @@
+13:2024-01-15 08:28:46 ERROR Authentication token expired - UserID: user_67890
+85:2024-01-17 10:14:30 ERROR Certificate verification failed - Host: api.partner.com, Error: certificate has expired
+27:2024-01-15 08:42:18 ERROR Database connection failed - Timeout after 30 seconds
+61:2024-01-16 09:31:42 ERROR Database query timeout - Query: SELECT * FROM orders WHERE created_at > ?, Timeout: 5000ms
+97:2024-01-17 10:23:45 ERROR Dependency service timeout - Service: user-authentication-service, Timeout after: 3000ms
+50:2024-01-16 09:22:05 ERROR Disk write failed - Path: /var/data/uploads/document.pdf, Error: No space left on device
+41:2024-01-16 09:18:43 ERROR Email validation failed - Invalid domain: example.co
+63:2024-01-16 09:33:15 ERROR External API rate limit exceeded - API: maps.googleapis.com, Retry-After: 3600s
+16:2024-01-15 08:31:22 ERROR File not found - Path: /uploads/image_2024.png
+90:2024-01-17 10:17:26 ERROR File size exceeds limit - Max allowed: 2MB, Received: 4.2MB
+73:2024-01-17 10:08:16 ERROR HTTP 503 Service Unavailable - URL: https://calendar.external.com/api/events
+57:2024-01-16 09:27:45 ERROR Image processing failed - File: photo.jpg, Reason: Unsupported format
+31:2024-01-15 08:48:15 ERROR Invalid JSON payload received - Endpoint: /api/orders/create2024-01-16 09:15:22 INFO Application startup initiated
+55:2024-01-16 09:25:10 ERROR JSON parsing error - Line: 42, Column: 15, Message: Unexpected token
+87:2024-01-17 10:16:48 ERROR Kafka producer error - Topic: booking-events, Partition: 3, Error: broker not available
+52:2024-01-16 09:23:12 ERROR Maximum connection pool size reached - Current: 100, Max: 100
+67:2024-01-17 10:05:25 ERROR MongoDB authentication failed - Username: app_user, Database: production
+20:2024-01-15 08:35:42 ERROR Network timeout - External API: https://payment-gateway.example.com
+45:2024-01-16 09:19:17 ERROR Order processing failed - OrderID: ORD-2024-156, Reason: Payment timeout
+44:2024-01-16 09:19:16 ERROR Payment gateway unreachable - Endpoint: https://pay.stripe.com/v1/charges
+21:2024-01-15 08:35:43 ERROR Payment processing failed - OrderID: ORD-2024-002
+24:2024-01-15 08:38:50 ERROR Permission denied - User: user_99999 attempted to access /admin/settings
+34:2024-01-16 09:15:25 ERROR Redis connection refused - Host: redis.internal:6379
+95:2024-01-17 10:21:33 ERROR S3 upload failed - Bucket: app-backups, Key: backup_20240117.tar.gz, Error: access denied
+92:2024-01-17 10:18:55 ERROR SMTP server connection failed - Host: smtp.mailserver.com:587, Error: connection timed out
+71:2024-01-17 10:07:43 ERROR Service unavailable - Write operations not permitted in read-only mode
+77:2024-01-17 10:10:44 ERROR XML parsing failed - Document: booking_confirmation.xml, Line: 156
+82:2024-01-17 10:12:19 ERROR gRPC deadline exceeded - Timeout: 2000ms, Actual: 2134ms
